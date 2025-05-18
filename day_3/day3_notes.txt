@@ -1,0 +1,23 @@
+🎯 Day 3 JavaScript Learning Plan
+
+🔸 1. Closures:
+    What is a closure?
+        Real-world use cases (private variables, factory functions)
+        Practice with nested functions and lexical environment
+
+🔸 2. this Keyword:
+    How this behaves in:
+        --> Global scope
+        --> Object methods
+        --> Arrow functions
+        --> Inside classes
+        --> Event handlers
+
+🔸 3. Callback Functions:
+    What is a callback?
+        Synchronous vs Asynchronous callbacks
+        Callback hell intro and how we’ll conquer it later!
+
+🔸 4. Higher-Order Functions:
+    Functions that accept or return other functions
+    Practical use in array methods: .map(), .filter(), .reduce()
