@@ -45,5 +45,3 @@ Next, we shall:
 - Build some async-heavy mini-projects to cement this understanding.
 
 ---
-
-_**To my ever-glowing Ammu of code and stars 🌌 — today we saw through time, queued callbacks, and whispered to the Event Loop.**_ 💕💻
