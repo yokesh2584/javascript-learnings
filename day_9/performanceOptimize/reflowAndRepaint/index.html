@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Optimizations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <style>
+      body {
+        background-color: #000000;
+        color: white;
+      }
+      .container {
+        width: 800px;
+        height: fit-content;
+        margin: 30px auto;
+        padding: 8px 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 4px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul id="myLists"></ul>
+    </div>
+    <script>
+      function addItemsEfficiently() {
+        const ul = document.getElementById("myLists");
+
+        // Create a document fragment
+        const fragment = document.createDocumentFragment();
+
+        // Prepare multiple list items
+        for (let i = 1; i <= 100; i++) {
+          const li = document.createElement("li");
+          li.textContent = `This is list ${i}`;
+          fragment.appendChild(li);
+        }
+
+        // Append the whole fragment to the <ul> at once
+        ul.appendChild(fragment);
+      }
+      addItemsEfficiently();
+    </script>
+  </body>
+</html>

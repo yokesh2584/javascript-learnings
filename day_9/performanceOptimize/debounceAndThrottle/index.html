@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Debounce & Throttling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <style>
+      #input {
+        width: 600px;
+        height: 40px;
+        border: 2px solid tomato;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" name="input" id="input" />
+    <hr />
+    <div>
+      <b>Default:</b>
+      <span id="default"></span>
+    </div>
+    <div>
+      <b>Debounce:</b>
+      <span id="debounce"></span>
+    </div>
+    <div>
+      <b>Throttle:</b>
+      <span id="throttle"></span>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
