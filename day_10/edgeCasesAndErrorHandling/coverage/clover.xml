@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1748278164302" clover="3.2.0">
+  <project timestamp="1748278164302" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="28" coveredconditionals="28" methods="4" coveredmethods="4" elements="51" coveredelements="51" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="objectUtils.js" path="/home/yokesh/work_folders/full_stack_journey/javascript_learning/day_10/edgeCasesAndErrorHandling/objectUtils.js">
+      <metrics statements="19" coveredstatements="19" conditionals="28" coveredconditionals="28" methods="4" coveredmethods="4"/>
+      <line num="2" count="4" type="cond" truecount="5" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="9" type="cond" truecount="5" falsecount="0"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="24" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="4" type="stmt"/>
+      <line num="45" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="4" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
